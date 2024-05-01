@@ -2,9 +2,9 @@
   <h1>AI API Document</h1>
 </center>
 
-Note: The full link is not available at the moment, but I will describe the API endpoints.
+Note: This ai is based on chatgpt 3.5, it is also used in huntools. (Please don't spam it too much because it is not certain that it will work.) If you encounter such an error, please let me know! 
 
-## /api/newChat?prompt=(Text)
+## https://ai.devbeni.tech/api/newChat?prompt=(Text)
 
 Note: Here you can create a new chat and write in the **prompt** what you want to ask them!
 
@@ -24,7 +24,7 @@ If **successful**:
 - Time: The time is about how long it takes to retrieve it! (Not sure if this is just a tip)
 - Id: The ChatId is what you need to retrieve the message.
 
-## /api/getChat?id=(ChatId)
+## https://ai.devbeni.tech/api/getChat?id=(ChatId)
 
 Note: From here you can retrieve the AI's answer based on the id.
 
